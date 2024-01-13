@@ -42,7 +42,14 @@ function ExpressionForm() {
     };
   
     return (
-      <div className="container mt-4">
+        
+        <div className="container mt-4" style={{
+            
+            color: '#fff', // Optionally, set text color to white or a suitable contrast
+            padding: '20px', // Optional padding for better readability
+            borderRadius: '10px', // Optional border-radius for rounded corners
+            boxShadow: '0 10px 10px rgba(0, 0, 0, 2)' // Optional box-shadow for depth
+          }}>
         <form>
           <div className="row">
             <div className="col-md-6 mb-3">
