@@ -1,8 +1,15 @@
-# React + Vite
+# Frontend Developer Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This repository contains a web-based Expression Engine UI implemented using Bootstrap and React. The UI allows users to define expressions with various rules, operators, and scores, and combine them using logical connectors (AND/OR).
 
-Currently, two official plugins are available:
+## Features
+- **Connector Type:** Users can choose between "AND" and "OR" logical connectors.
+- **Expression Rules:**
+  - Rule Type: Choose from "Age," "Credit Score," or "Account Balance."
+  - Operator: Select from ">", ">=", "<=", "=", etc.
+  - Value: Input the desired value for the rule.
+  - Score: Assign a score for the rule.
+- **Dynamic Addition/Deletion:** Users can dynamically add or delete expression rules.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
